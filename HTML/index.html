@@ -1,32 +1,61 @@
 <!DOCTYPE html>
 <html lang="ja">
+
 <head>
-    <meta charset="UTF-8">
-    <title>タイトル</title>
+	<meta charset="UTF-8">
+	<title>タイトル</title>
 </head>
+
 <body>
-<div id="content">
-	<header id="header">
-		<h1>WEB SITE</h1>
-		<nav id="menu">
-			<h2>MENU</h2>
-			<p>news</p>
-			<p>blog</p>
-			<p>contact</p>
-		</nav>
-	</header>
-	<main>
-		<h2>MAIN</h2>
-		<section id="news">
-			<h3>news</h3>
-		</section>
-		<section id="blog">
-			<h3>blog </h3>
-		</section>
-	</main>
-	<footer id="footer">
-		<h3>contact</h3>
-	</footer>
-</div>
+	<div id="content">
+		<header id="header">
+			<h1>WEB SITE</h1>
+			<nav id="menu">
+				<h2>MENU</h2>
+				<a href="index.html#news" target="_blank">
+					<p>news</p>
+				</a>
+				<a href="index.html#blog" target="_blank">
+					<p>blog</p>
+				</a>
+				<a href="index.html#footer" target="_blank">
+					<p>contact</p>
+				</a>
+			</nav>
+		</header>
+		<main>
+			<img src="img/mainvisual.png" alt="メインビジュアル">
+			<h2>MAIN</h2>
+			<section id="news">
+				<h3>news</h3>
+				<table border="1">
+					<tr>
+						<th>日付</th>
+						<th>タイトル</th>
+					</tr>
+					<tr>
+						<td>20XX-XX-XX</td>
+						<td>問い合わせフォームを開設しました</td>
+					</tr>
+					<tr>
+						<td>20XX-XX-XX</td>
+						<td>Webサイトを開設しました</td>
+					</tr>
+				</table>
+			</section>
+			<section id="blog">
+				<h3>blog </h3>
+				<ul>
+					<li>リスト表示のテスト</li>
+					<li>HTMLの構造についての学習</li>
+				</ul>
+			</section>
+		</main>
+		<footer id="footer">
+			<h3>contact</h3>
+			<p><a href="contact.html" target="_blank">こちら</a>のフォームからお問い合わせください。</p>
+		</footer>
+	</div>
 </body>
+
 </html>
